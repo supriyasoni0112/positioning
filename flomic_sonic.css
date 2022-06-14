@@ -1,0 +1,346 @@
+*{box-sizing: border-box;
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+img{max-width: 100%;}
+body{margin: 0px;}
+
+.fix{position:fixed;
+     background:rgb(74, 74, 74);
+     height: 100vh;
+     width:16%;
+     text-align: center;;
+} 
+.fix div img{margin-top: 50px;
+             margin-bottom: 50px;}
+.fix a{color: white;
+       text-decoration: none;
+       }
+.first{background-color: rgb(31, 42, 42);
+     border-left: solid 3px cornflowerblue;
+     height: 50px;
+     border-bottom: solid 2px darkslategray;
+     color:cornflowerblue;
+     padding-top: 15px;}
+.second{background-color: rgb(31, 42, 42);
+     border-left: solid 3px orange;
+     height: 50px;
+     border-bottom: solid 2px darkslategray;
+     padding-top: 15px;} 
+.third{background-color: rgb(31, 42, 42);
+     border-left: solid 3px purple;
+     padding-top: 15px;
+     height: 50px;
+     border-bottom: solid 2px darkslategray;}
+.fourth{background-color: rgb(31, 42, 42);
+     padding-top: 15px;
+     border-left: solid 3px green;
+     height: 50px;
+     border-bottom: solid 2px darkslategray;} 
+.fifth{background-color: rgb(31, 42, 42);
+     border-left: solid 3px red;
+     padding-top: 15px;
+     height: 50px;
+     border-bottom: solid 2px darkslategray;}                                                          
+.scroll{margin-left: 16%;}  
+.border{width: 85%;
+        margin: auto;}        
+/*section1*/
+.one{height:600px;
+     background: url(../flomicimages/section1bg.jpg);
+     background-size:cover; }
+.one header{font-size: 3rem;
+     font-weight: bold;
+     color: white;
+     text-align: center;
+     padding-top: 250px;
+}
+.one p{color:white;
+     letter-spacing: 2px;
+     text-align: center;
+     font-size: large;}
+.one button{background-color: cornflowerblue;
+     width: 10%;
+     height: 50px;
+     color: white;
+     border: none;
+     font-weight: bold;
+}              
+.button{text-align: center;
+     padding-top: 20px;}
+/*section2*/
+#two{text-align: center;}
+#two h1{padding-top: 30px;
+     color: cornflowerblue;
+     font-weight: lighter;
+}   
+#two p{padding-bottom: 30px;}
+.hr{width: 100%;
+     height: 7px;
+     background-color: orange;
+}
+/*section3*/
+#aboutus{background-color: rgb(243, 165, 20);
+     margin-top: 0px;
+     width: 15%;
+     height: 60px;
+     color: white;
+     border: none;
+     font-size: larger;
+}  
+.position1 div {width: 22%;
+         position: relative;
+     text-align: center;}
+.marketing{padding-top: 50px;}         
+.creative{margin-left: 35%;
+     margin-top: -460px;
+}
+.company{margin-left: 70%;
+     margin-top: -460px;    
+}
+.position1 div h3{color: orange;
+     font-weight: 400;}
+.desktop{position:relative ;
+     margin-left: 70%;
+     margin-top: -260px;
+}     
+.position2 h3{color: orange;
+     font-weight: 300;
+     padding-top: 80px; 
+     font-size: 1.75rem;   
+}
+.hr2{width: 100%;
+     height: 7px;
+     background-color: purple;}
+/*section4*/
+#services{background-color: purple;
+     border: 0ch;
+     margin-top: 0px;
+     width: 15%;
+     height: 60px;
+     color: white;
+     font-size: larger;
+}     
+.position3 div{width:22%;
+     height: 80px;
+     background-color: purple;
+     position: absolute;
+     margin-top: 30px;
+}
+.design{margin-left: 25%;}
+.pencil{margin-left: 50%;}
+.position3 div i{color: white;
+     font-size: 1.25rem;
+     padding: 20px;
+     padding-bottom: 0px;
+}
+.position3 div span{
+     color: white;
+     font-size: 1.25rem;
+}
+.position4{padding-top: 150px;}
+.position4 h3{color: purple;
+     font-weight: 300;
+     font-size: 1.75rem; }
+
+.bars{width: 30%;
+     margin-left: 70%;
+     margin-top: -150px;
+}
+.myProgress {width: 100%;
+     background-color: lightgray;
+     margin-bottom: 10px;
+     text-align: center;
+}   
+   #myBar {
+     width: 90%;
+     height: 30px;
+     background-color: purple;
+     color: white;
+   }
+   #myBar1 {
+     width: 75%;
+     height: 30px;
+     color: white;
+     background-color: purple;
+   }
+   #myBar2 {
+     width: 66%;
+     height: 30px;
+     color: white;
+     background-color: purple;
+   }
+   #myBar3 {
+     width: 88%;
+     height: 30px;
+     color: white;
+     background-color: purple;
+   }      
+.hr3{width: 100%;
+     height: 7px;
+     margin-top: 100px;
+     background-color: green;}   
+/*section5*/
+#portfolio{background-color: green;
+     border: none;
+     margin-top: 0px;
+     width: 15%;
+     height: 60px;
+     color: white;
+     font-size: larger}
+.fantasy{padding-top: 50px;}     
+.botany{margin-left: 35%;
+     margin-top: -415px;}
+.universe{margin-left: 70%;
+     margin-top: -415px;} 
+.channel{padding-top: 30px;}
+.dragon{margin-left: 35%;
+     margin-top: -415px;}    
+.titanium{margin-left: 70%;
+     margin-top: -415px;}    
+.position5 h3{color: green;
+     font-weight: 500;
+     margin-left: 80px; }
+.button1 button{background-color: green;
+     width: 10%;
+     height: 50px;
+     color: white;
+     border: none;
+     font-weight: bold;}
+.button1{text-align: center;
+     padding-top: 20px;
+     padding-bottom: 100px;}    
+.hr4{width: 100%;
+     height: 7px;
+     margin-top: 30px;
+     background-color: red;}   
+/*section6*/
+#contact{background-color: red;
+     border: none;
+     margin-top: 0px;
+     width: 15%;
+     height: 60px;
+     color: white;
+     font-size: larger}   
+iframe{width: 100%;
+     height: 450px;
+     border: solid 3px whitesmoke;
+     padding: 3px;
+     margin-top: 100px;
+}       
+.grid{display: grid;
+     grid-template-columns: auto auto auto;
+     justify-content: space-between;
+     padding-top: 50px;
+     padding-bottom: 30px;
+}
+.grid input{
+     height: 30px;
+     width: 300px;
+}
+textarea{
+     height: 100px;
+     width:100%;
+}
+.send{background-color: red;
+     width: 10%;
+     height: 50px;
+     color: white;
+     border: none;
+     font-weight: bold;
+     margin-top: 30px;
+     margin-bottom: 100px;
+}
+.last{
+     background-color: lightslategray;
+     height: 100px;
+     margin-left: 5px;
+     border-left: solid 5px darkslategrey;
+     text-align: center;
+}
+.last i{
+     color: white;
+     background: darkslategrey;
+     font-size: 1.50rem;
+     padding: 5px;
+     margin-top: 30px;
+}
+.footer{
+     background: darkslategrey;
+     height: 100px;
+     margin-left: 5px;
+}
+.footer div{
+     margin-left: 80px;
+     padding-top: 30px;
+     color: white;
+}
+
+@media only screen and (max-width:576px){
+     .fix{position: relative;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          height: auto;
+          width:100%;
+     }
+     .fix div img{margin:20px}
+     .logo{
+          grid-column-start: 1;
+          grid-column-end: 4;
+     }
+     .scroll{margin-left: 0%;}
+     .border{width: 90%;}
+     #aboutus, #services, #portfolio, #contact{font-size: medium;
+          width: 30%;
+          height: 40px;}
+     /*section1*/
+     .one{background-size: cover;
+          height:350px}
+     .one header{font-size: 2rem;}  
+     .one p, .one button {display: none;}  
+     #two h1{padding-top: 10px;}
+     /*section3*/
+     .position1 div {width: 100%;}
+     .position1 div h3{margin: 0px;}
+     .position1 div p{margin: 0px;
+          margin-bottom: 10px;}
+     .marketing{padding-top: 50px;}         
+     .creative{margin-left: 0%;
+          margin-top: 0px;
+     }
+     .company{margin-left: 0%;
+          margin-top: 0px;}
+     .position2 h3{padding-top: 0px;}     
+     .desktop{position:relative ;
+          margin-left: 0%;
+          margin-top: 0px;
+          padding-bottom: 30px;}
+      /*section4*/
+      .position3 div{position: relative;
+          width: 100%;}
+      .design{margin-left: 0%;}
+      .pencil{margin-left: 0%;} 
+      .position4{padding-top: 0px;}      
+      .bars{width: 100%;
+          margin-left: 0%;
+          margin-top: 0px;}
+     .hr3{margin-top: 30px;}     
+      /*section5*/
+      .position5{text-align: center;}
+      .position5 h3{margin-left: 0px;}
+      .fanstay, .botany, .universe,.channel, .dragon, .titanium{margin-left: 0px;
+          margin-top: 0px;}
+      .button1 button {width: 30%;
+               height: 40px;} 
+      .button1{padding: 0px;
+          padding-top: 10px;}   
+     /*section6*/
+      iframe{margin-top: 10px;}
+     /*section7*/
+     .grid {display: block;
+          text-align: center;}
+     .grid input{width: 100%;
+          text-align: center;}
+     .send {width: 30%;
+               height: 40px;}      
+
+}
