@@ -46,7 +46,7 @@ body{margin: 0px;}
         margin: auto;}        
 /*section1*/
 .one{height:600px;
-     background: url(flomicimages/section1bg.jpg);
+     background: url('flomicimages/section1bg.jpg');
      background-size:cover; }
 .one header{font-size: 3rem;
      font-weight: bold;
