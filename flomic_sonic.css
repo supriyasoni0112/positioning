@@ -341,6 +341,7 @@ textarea{
      .grid input{width: 100%;
           text-align: center;}
      .send {width: 30%;
-               height: 40px;}      
+               height: 40px;} 
+  .last, .footer{margin-left: 0px;}
 
 }
